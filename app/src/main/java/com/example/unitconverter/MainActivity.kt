@@ -157,9 +157,9 @@ fun UnitConverter() {
 
                 /*The Box composable is a container that can hold other composable
                 and allows you to position and stack them within a bounding box.*/
-//                Button(onClick = { iExpanded = true }) {
-//                    Text(text = inputUnit)
-//                    Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
+                Button(onClick = { iExpanded = true }) {
+                    Text(text = inputUnit)
+                    Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
                     //Content description will be read out if you use the accessibility feature
                 }
 
